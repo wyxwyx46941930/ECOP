@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1527556600">
+  <File Type="OPT-DCP" Name="Display_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="ROUTE-DCP" Name="Display_routed.dcp"/>
+  <File Type="PA-TCL" Name="Display.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="PWROPT-DCP" Name="Display_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="Display_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Display_drc_pwropted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Display_timing_summary_routed.pb"/>
+  <File Type="PLACE-DCP" Name="Display_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Display_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Display_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Display_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Display_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Display_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Display_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Display_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Display_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Display_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="Display.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="Display_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="Display_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Display_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Display_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Display_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Display_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Display_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Display_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Display_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Display_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Display_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Display_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Display.bit"/>
+  <File Type="BG-BIN" Name="Display.bin"/>
+  <File Type="BITSTR-MSK" Name="Display.msk"/>
+  <File Type="BITSTR-RBT" Name="Display.rbt"/>
+  <File Type="BITSTR-NKY" Name="Display.nky"/>
+  <File Type="BITSTR-BMM" Name="Display_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Display.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Display.sysdef"/>
+  <File Type="BG-BGN" Name="Display.bgn"/>
+  <File Type="BG-DRC" Name="Display.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/Display_CPU.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue May 29 09:22:41 2018
+# Process ID: 1468
+# Log file: D:/vivado/CPU/CPU.runs/impl_1/Display.vdi
+# Journal file: D:/vivado/CPU/CPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Display.tcl -notrace

@@ -1,0 +1,93 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Tue May 29 09:17:06 2018
+| Host         : LAPTOP-FLPBL57L running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Display_control_sets_placed.rpt
+| Design       : Display
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    40 |
+| Minimum Number of register sites lost to control set restrictions |    25 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              36 |           20 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              70 |           19 |
+| Yes          | No                    | No                     |            1024 |          429 |
+| Yes          | No                    | Yes                    |               5 |            2 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+---------------------------+---------------------------+------------------+----------------+
+|       Clock Signal       |       Enable Signal       |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++--------------------------+---------------------------+---------------------------+------------------+----------------+
+|  clk_div/CLK             |                           |                           |                1 |              2 |
+|  SYS_CLK_IBUF_BUFG       |                           |                           |                2 |              2 |
+| ~de/key_out_reg          | cpu/pc/n_0_address[6]_i_1 | cpu/pc/n_0_address[6]_i_3 |                2 |              5 |
+|  SYS_CLK_IBUF_BUFG       |                           | de/n_0_count_high[0]_i_1  |                6 |             22 |
+|  SYS_CLK_IBUF_BUFG       |                           | CPU_CLK_IBUF              |                6 |             22 |
+|  SYS_CLK_IBUF_BUFG       |                           | clk_div/clear             |                7 |             26 |
+|  de/key_out_reg          | cpu/pc/I117[0]            |                           |               13 |             32 |
+|  de/key_out_reg          | cpu/pc/I121[0]            |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I125[0]            |                           |               15 |             32 |
+|  de/key_out_reg          | cpu/pc/I129[0]            |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I13[0]             |                           |               17 |             32 |
+|  de/key_out_reg          | cpu/pc/I17[0]             |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I21[0]             |                           |               16 |             32 |
+|  de/key_out_reg          | cpu/pc/I25[0]             |                           |               15 |             32 |
+|  de/key_out_reg          | cpu/pc/I29[0]             |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I33[0]             |                           |               18 |             32 |
+|  de/key_out_reg          | cpu/pc/I37[0]             |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I41[0]             |                           |               12 |             32 |
+|  de/key_out_reg          | cpu/pc/I45[0]             |                           |               12 |             32 |
+|  de/key_out_reg          | cpu/pc/I49[0]             |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I53[0]             |                           |               13 |             32 |
+|  de/key_out_reg          | cpu/pc/I57[0]             |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I61[0]             |                           |               12 |             32 |
+|  de/key_out_reg          | cpu/pc/I65[0]             |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I69[0]             |                           |               13 |             32 |
+|  de/key_out_reg          | cpu/pc/I73[0]             |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I77[0]             |                           |               13 |             32 |
+|  de/key_out_reg          | cpu/pc/I81[0]             |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I85[0]             |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I89[0]             |                           |               14 |             32 |
+|  de/key_out_reg          | cpu/pc/I9[0]              |                           |               16 |             32 |
+|  de/key_out_reg          | cpu/pc/I93[0]             |                           |               12 |             32 |
+|  de/key_out_reg          | cpu/pc/I97[0]             |                           |               15 |             32 |
+|  de/key_out_reg          | cpu/pc/O20[0]             |                           |               16 |             32 |
+|  de/key_out_reg          | cpu/pc/I101[0]            |                           |               11 |             32 |
+|  de/key_out_reg          | cpu/pc/I105[0]            |                           |               13 |             32 |
+|  de/key_out_reg          | cpu/pc/I109[0]            |                           |               12 |             32 |
+|  de/key_out_reg          | cpu/pc/I113[0]            |                           |               12 |             32 |
+|  n_0_DataOut_reg[31]_i_2 |                           |                           |               17 |             32 |
+|  de/key_out_reg          | cpu/pc/p_0_in             |                           |               12 |             96 |
++--------------------------+---------------------------+---------------------------+------------------+----------------+
+
+

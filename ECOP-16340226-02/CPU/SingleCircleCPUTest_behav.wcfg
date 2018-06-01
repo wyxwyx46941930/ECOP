@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SingleCircleCPUTest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SingleCircleCPUTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="363000001fs"></ZoomEndTime>
+      <Cursor1Time time="188000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="10" />
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/currentPC" type="array">
+      <obj_property name="ElementShortName">currentPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">currentPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/sa" type="array">
+      <obj_property name="ElementShortName">sa[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/Out1" type="array">
+      <obj_property name="ElementShortName">Out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/Out2" type="array">
+      <obj_property name="ElementShortName">Out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SingleCircleCPUTest/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[15:0]</obj_property>
+   </wvobject>
+</wave_config>
