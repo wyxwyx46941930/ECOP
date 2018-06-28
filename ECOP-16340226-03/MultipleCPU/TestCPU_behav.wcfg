@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestCPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestCPU" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3497250000fs"></ZoomStartTime>
+      <ZoomEndTime time="4343250001fs"></ZoomEndTime>
+      <Cursor1Time time="3900000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="16" />
+   <wvobject db_ref_id="1" fp_name="/TestCPU/CLK" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/RST" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+      <obj_property name="label">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/curAddress" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">curAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curAddress[31:0]</obj_property>
+      <obj_property name="label">Curpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/newAddress" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">newAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">newAddress[31:0]</obj_property>
+      <obj_property name="label">Nextpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/rs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      <obj_property name="label">Rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/rt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      <obj_property name="label">Rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/Immediate" type="array">
+      <obj_property name="ElementShortName">Immediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Immediate[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/rd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="label">Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/result" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="label">Aluout[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/StateOut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">StateOut[2:0]</obj_property>
+      <obj_property name="ObjectShortName">StateOut[2:0]</obj_property>
+      <obj_property name="label">State[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/ADROut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ADROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADROut[31:0]</obj_property>
+      <obj_property name="label">ADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/BDROut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">BDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BDROut[31:0]</obj_property>
+      <obj_property name="label">BDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/ALUDROut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ALUDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUDROut[31:0]</obj_property>
+      <obj_property name="label">ALUDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TestCPU/DBDROut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DBDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DBDROut[31:0]</obj_property>
+      <obj_property name="label">DBDR[31:0]</obj_property>
+   </wvobject>
+</wave_config>
